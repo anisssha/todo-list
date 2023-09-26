@@ -6,7 +6,7 @@ module.exports = {
     DB: "todolist",
     dialect: "mysql",
     pool: {
-      max: 5,
+      max: 6,
       min: 0,
       acquire: 30000,
       idle: 10000,
